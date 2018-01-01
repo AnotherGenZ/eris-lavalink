@@ -1,14 +1,19 @@
-eris-lavalink
-=============
+# eris-lavalink
 
-A Lavalink client for eris for distributed music nodes.
+A [Lavalink](https://github.com/Frederikam/Lavalink) client for [eris](https://github.com/abalabahaha/eris)
 
-**Install**
+## Links
+- **[Documentation](https://briantanner.github.io/eris-lavalink/index.html)**
+- **[Lavalink](https://github.com/Frederikam/Lavalink)**
+- **[eris](https://github.com/abalabahaha/eris)**
+- **[lavalink.js](https://github.com/briantanner/lavalink.js)** (discord.js port)
+
+## Install
 ```
 npm install eris-lavalink
 ```
 
-**Implementation**
+## Implementation
 
 Start by creating the `PlayerManager` and passing a list of nodes and optional list of regions
 ```js
@@ -120,6 +125,3 @@ getPlayer(channel).then(player => {
 	}
 })
 ```
-
-Discord.js port:
-* [lavalink.js](https://github.com/briantanner/lavalink.js) (discord.js, JavaScript)
